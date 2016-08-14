@@ -70,12 +70,8 @@ class CountryVehicleSearchType extends AbstractType
 
         if ($country)
         {
-            $result = $this->entityManager->getRepository('AppBundle:Vehicle')->createQueryBuilder('vehicle')
-                ->join('vehicle.countryLinks', 'countryLinks')
-                ->where('countryLinks.country = :country')
-                ->setParameter('country', $country)
-                ->getQuery()
-                ->getResult();
+            $result = $this->entityManager->getRepository('AppBundle:Vehicle')->search(['country' => $country])
+                ->getQuery()->getResult();
         }
 
         return $result;
