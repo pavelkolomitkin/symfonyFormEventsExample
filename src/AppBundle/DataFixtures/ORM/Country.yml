@@ -1,0 +1,5 @@
+AppBundle\Entity\Country:
+    russia:
+        name: Россия
+    usa:
+        name: USA

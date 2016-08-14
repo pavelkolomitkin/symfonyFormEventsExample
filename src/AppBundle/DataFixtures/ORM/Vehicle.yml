@@ -1,0 +1,21 @@
+AppBundle\Entity\Vehicle:
+    vehicle1:
+        title: jetliner
+
+    vehicle2:
+        title: kayak
+
+    vehicle3:
+        title: motorcar
+
+    vehicle4:
+        title: narrowboat
+
+    vehicle5:
+        title: off-road vehicle
+
+    vehicle6:
+        title: recreational vehicle
+
+    vehicle7:
+        title: sedan chair

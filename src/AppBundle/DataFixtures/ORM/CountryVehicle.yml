@@ -1,0 +1,50 @@
+AppBundle\Entity\CountryVehicle:
+    countryVehicle1:
+        country: '@russia'
+        vehicle: '@vehicle1'
+        isAvailable: true
+
+    countryVehicle2:
+        country: '@usa'
+        vehicle: '@vehicle1'
+        isAvailable: false
+
+    countryVehicle2:
+        country: '@russia'
+        vehicle: '@vehicle2'
+        isAvailable: false
+
+    countryVehicle3:
+        country: '@usa'
+        vehicle: '@vehicle3'
+        isAvailable: false
+
+    countryVehicle4:
+        country: '@russia'
+        vehicle: '@vehicle3'
+        isAvailable: true
+
+    countryVehicle5:
+        country: '@russia'
+        vehicle: '@vehicle4'
+        isAvailable: true
+
+    countryVehicle6:
+        country: '@usa'
+        vehicle: '@vehicle5'
+        isAvailable: false
+
+    countryVehicle6:
+        country: '@usa'
+        vehicle: '@vehicle6'
+        isAvailable: false
+
+    countryVehicle6:
+        country: '@russia'
+        vehicle: '@vehicle6'
+        isAvailable: true
+
+    countryVehicle7:
+        country: '@russia'
+        vehicle: '@vehicle7'
+        isAvailable: true
